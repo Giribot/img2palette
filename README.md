@@ -56,21 +56,21 @@ Download - Save your palette with the download button
 
 ## 🛠️ Technical Details
 Dependencies
-Pillow: Image processing and manipulation
-NumPy: Numerical computing and array operations
-Gradio: Web interface framework
-Scikit-learn: K-means clustering for color grouping
+Pillow: Image processing and manipulation,
+NumPy: Numerical computing and array operations,
+Gradio: Web interface framework,
+Scikit-learn: K-means clustering for color grouping,
 
 ## How It Works
-Color Extraction: Converts image to RGB and extracts all pixel values
-Color Reduction: Uses K-means clustering to group similar colors when exceeding the limit
-Color Sorting: Optionally sorts colors by hue for better visual organization
-Palette Generation: Creates a square grid with color swatches
-Output: Generates a PNG image of the color palette
+Color Extraction: Converts image to RGB and extracts all pixel values,
+Color Reduction: Uses K-means clustering to group similar colors when exceeding the limit,
+Color Sorting: Optionally sorts colors by hue for better visual organization,
+Palette Generation: Creates a square grid with color swatches,
+Output: Generates a PNG image of the color palette,
 Output Dimensions
-Swatch Size: 50×50 pixels (customizable in code)
-Grid Layout: Square grid (e.g., 7×7 for 50 colors = 350×350 pixels)
-Background: White background for better color visibility
+Swatch Size: 50×50 pixels (customizable in code),
+Grid Layout: Square grid (e.g., 7×7 for 50 colors = 350×350 pixels),
+Background: White background for better color visibility,
 
 ## 📁 Project Structure
 color-palette-extractor/
