@@ -22,9 +22,9 @@ Built with Gradio for an intuitive web interface.
 ```bash
 # Download all files in the same folder and double-click:
 install_and_run.bat
-
+```
 ### Method 2: Automatic Installation (Windows)
-
+```
 # Clone the repository
 git clone https://github.com/yourusername/color-palette-extractor.git
 cd color-palette-extractor
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
-
+```
 
 ## 🚀 Usage
 Launch the application - The web interface will open automatically in your browser
@@ -53,13 +53,15 @@ Set maximum number of colors (default: 50)
 Enable/disable hue sorting (default: enabled)
 Click "Extract Colors" - Generate the color palette
 Download - Save your palette with the download button
-🛠️ Technical Details
+
+## 🛠️ Technical Details
 Dependencies
 Pillow: Image processing and manipulation
 NumPy: Numerical computing and array operations
 Gradio: Web interface framework
 Scikit-learn: K-means clustering for color grouping
-How It Works
+
+## How It Works
 Color Extraction: Converts image to RGB and extracts all pixel values
 Color Reduction: Uses K-means clustering to group similar colors when exceeding the limit
 Color Sorting: Optionally sorts colors by hue for better visual organization
