@@ -23,7 +23,7 @@ Built with Gradio for an intuitive web interface.
 # Download all files in the same folder and double-click:
 install_and_run.bat
 ```
-### Method 2: Automatic Installation (Windows)
+### Method 2: Manual Installation (Windows/Mac/Linux)
 ```
 # Clone the repository
 git clone https://github.com/yourusername/color-palette-extractor.git
