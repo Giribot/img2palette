@@ -1,4 +1,5 @@
 # 🎨 img2palette
+an another try to extract a color palette from a picture ;-) 
 
 <img width="731" height="405" alt="example" src="https://github.com/user-attachments/assets/37101d6d-8d1a-47af-8603-7b50e474abf6" />
 
